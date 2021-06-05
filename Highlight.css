@@ -1,20 +1,45 @@
+@keyframes drop {
+	0% {box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.5); margin-top: -20px; margin-bottom: 20px;}
+	70% {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);}
+	100% {box-shadow: inset 2px 2px 5px #cacaca, inset -2px -2px 5px #f6f6f6;}
+}
+
 #Neumorphism-card {
 	background-color: #e0e0e0;
+	box-shadow: inset 2px 2px 5px #cacaca, inset -2px -2px 5px #f6f6f6;
+	border-radius: 15px;
+	animation-name: drop;
+	animation-duration: 1s;
+	transition: margin-top 0.5s, padding-bottom 0.5s;
+}
+
+#Neumorphism-card:hover {
+	margin-top: -20px;
+	padding-bottom: 20px;
 }
 
 #Neumorphism-card > .bd-addon-header {
-	background-color: #e0e0e0;
+	background-color: rgba(0,0,0,0);
 }
 
 #Neumorphism-card > .bd-addon-header > .bd-title > .bd-name {
 	color: #303030;
 }
 
-/*
 #Neumorphism-card > .bd-footer > .bd-controls > .bd-button:not(.bd-button-danger) {
 	visibility: hidden;
 }
-*/
+
+#Neumorphism-card > .bd-footer > .bd-controls > button:nth-child(1) {
+	visibility: visible !important;
+	margin-right: -30px;
+	background-color: rgba(0,0,0,0);
+}
+
+#Neumorphism-card > .bd-footer > .bd-controls > button:nth-child(1) > svg {
+	fill: #303030;
+	opacity: 0.7;
+}
 
 #Neumorphism-card > .bd-footer > .bd-controls > .bd-button-danger {
 	background-color: rgba(0,0,0,0);
