@@ -1,0 +1,37 @@
+#Neumorphism-card {
+	background-color: #e0e0e0;
+}
+
+#Neumorphism-card > .bd-addon-header {
+	background-color: #e0e0e0;
+}
+
+#Neumorphism-card > .bd-addon-header > .bd-title > .bd-name {
+	color: #303030;
+}
+
+#Neumorphism-card > .bd-footer > .bd-controls > .bd-button:not(.bd-button-danger) {
+	visibility: hidden;
+}
+
+#Neumorphism-card > .bd-footer > .bd-controls > .bd-button-danger {
+	background-color: rgba(0,0,0,0);
+}
+
+#Neumorphism-card > .bd-addon-header > svg {
+	fill: rgba(0,0,0,0);
+	background-image: url("https://avatars.githubusercontent.com/u/51198087?s=120&v=4");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
+#Neumorphism-card > .bd-description-wrap > .bd-description {
+	color: #303030;
+	opacity: 0.8;
+}
+
+#Neumorphism-card > div.bd-footer > span > div:nth-child(1) > a > svg, #Neumorphism-card > div.bd-footer > span > div:nth-child(2) > a > svg, #Neumorphism-card > div.bd-footer > div > button.bd-button.bd-addon-button.bd-button-danger > svg {
+	fill: #303030;
+	opacity: 0.7;
+}
