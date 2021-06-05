@@ -10,9 +10,11 @@
 	color: #303030;
 }
 
+/*
 #Neumorphism-card > .bd-footer > .bd-controls > .bd-button:not(.bd-button-danger) {
 	visibility: hidden;
 }
+*/
 
 #Neumorphism-card > .bd-footer > .bd-controls > .bd-button-danger {
 	background-color: rgba(0,0,0,0);
