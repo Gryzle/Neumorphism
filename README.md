@@ -9,7 +9,7 @@ How To Install:
 4. Click "Open Plugins Folder" (Located at the top of the page).
 5. Drag the downloaded file from Step 1 into the Plugins folder.
 6. Enable the plugin by toggling it from the Plugins page.
-7. Click the gear to customize the color of the theme.
+7. Click the gear to customize the color scheme. (You might need to complete this step to apply the theme for the first time.)
 
 ### Below are some screenshots demonstrating the plugin's functionality.
 
